@@ -1,0 +1,10 @@
+pandas
+numpy
+plotly
+statsmodels
+plotly_express
+matplotlib
+country_converter
+scipy
+seaborn
+pycountry
