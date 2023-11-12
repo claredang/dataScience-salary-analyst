@@ -8,4 +8,4 @@ country_converter
 scipy
 seaborn
 pycountry
-sklearn
+scikit-learn
