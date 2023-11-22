@@ -1,8 +1,6 @@
-import numpy as np
 import pandas as pd
 import plotly_express as px
 from plotly import graph_objects as go
-import matplotlib.pyplot as plt
 import streamlit as st
 
 data = pd.read_csv("data_scientist.csv")
@@ -100,13 +98,6 @@ def show_explore_page():
     st.header("Yearly Salary Distribution")
     st.plotly_chart(fig)
 
-    # def salary_by_experience(df):
-    # df = process(data)
-    # job_cats = list(job_dict.keys())
-    # salary_meds = {}
-    # for job_cat in job_cats:
-    #     salary_meds[job_cat] = df[df.job_category ==
-    #                               job_cat].salary_in_usd.median()
     fig = go.Figure()
     # Get the df for a single job category each time
     for job in job_cats:

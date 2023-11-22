@@ -1,15 +1,8 @@
 import streamlit as st
 import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-# import seaborn as sns
 import plotly.express as px
 import country_converter as coco
 import plotly.figure_factory as ff
-# import plotly.graph_objects as go
-# from wordcloud import WordCloud
-# import warnings
-# warnings.filterwarnings('ignore')
 
 
 def show_analysis_page():
